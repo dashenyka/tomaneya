@@ -27,3 +27,11 @@ def Koef(n):
 
 n = int(input("Количество критериев: "))
 weights = Koef(n)
+
+if n>0:
+
+    print("Весовые коэффициенты:")
+    for i, weight in enumerate(weights):
+        print(f"Критерий {i + 1}: {weight}")
+else:
+    print("Недопустимое значение")
