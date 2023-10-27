@@ -1,5 +1,29 @@
-# Object file
-*.o
+def Koef(n):
+    massiv = []
 
-# Ada Library Information
-*.ali
+    for i in range(n):
+        mas = []
+        for j in range(n):
+            if i == j:
+                mas.append(1)
+            elif i < j:
+                value = float(input(f"оценка для критерия {i + 1} относительно критерия {j + 1}: "))
+                mas.append(value)
+            else:
+                mas.append(1 / massiv[j][i])
+        massiv.append(mas)
+
+    summa = [1 for _ in range(n)]
+    for i in range(n):
+        for j in range(n):
+            summa[i] *= massiv[j][i]
+        summa[i] **= (1 / n)
+
+    itogsum = sum(summa)
+    weights = [round(val / itogsum, 2) for val in summa]
+
+    return weights
+
+
+n = int(input("Количество критериев: "))
+weights = Koef(n)
