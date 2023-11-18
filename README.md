@@ -12,7 +12,7 @@
 Программа обрабатывает введенные числа с использованием двумерного массива и высчитывает весовые коэффициенты.
 ##### Скриншоты тестов
 
-![image](https://github.com/dashenyka/tomaneya/assets/146252024/0d05e348-f986-4fb9-8e7d-12e34edb80c4)
+![image](https://github.com/dashenyka/tomaneya/assets/146252024/d248cd75-1ef7-460d-997e-aa0ef0cb591c)
 
 ![image](https://github.com/dashenyka/tomaneya/assets/146252024/9123637f-0028-499a-8083-070b3ea11164)
 
