@@ -24,7 +24,6 @@ def Koef(n):
 
     return weights
 
-
 n = int(input("Количество критериев: "))
 weights = Koef(n)
 
